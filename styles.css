@@ -2,6 +2,11 @@ body{
     margin: 0;
     padding: 0;
 }
+.nav-link.active {
+  font-weight: bold;
+  color: white !important; /* Bootstrap синьо */
+  border-bottom: 4px solid white;
+}
 .profilePic{
     width: 400px;
     height: auto;
@@ -16,9 +21,7 @@ body{
     font-size: 20px;
 }
 .nav-link:hover{
-    color: white;
-    text-decoration: underline;
-    text-underline-offset: 6px;
+    color: #8343A0;
 }
 .mansorContainer{
     padding: 50px;
@@ -81,12 +84,12 @@ body{
 .gitContainer{
     margin-top: 40px;
     display: grid;
-    grid-template-columns: 170px 50px;
+    grid-template-columns: 400px 50px;
 }
 .thunkableContainer{
     margin-top: 40px;
     display: grid;
-    grid-template-columns: 220px 50px;
+    grid-template-columns: 460px 50px;
 }
 hr{
     border-top: 6px solid #431264;
@@ -101,6 +104,9 @@ footer{
 }
 .contact a{
     color: #431264;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 .contact a:hover{
     color: #8343A0; 
