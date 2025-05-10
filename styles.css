@@ -84,12 +84,12 @@ body{
 .gitContainer{
     margin-top: 40px;
     display: grid;
-    grid-template-columns: 210px 50px;
+    grid-template-columns: 140px 50px;
 }
 .thunkableContainer{
     margin-top: 40px;
     display: grid;
-    grid-template-columns: 250px 50px;
+    grid-template-columns: 180px 50px;
 }
 hr{
     border-top: 6px solid #431264;
