@@ -89,7 +89,7 @@ body{
 .thunkableContainer{
     margin-top: 40px;
     display: grid;
-    grid-template-columns: 460px 50px;
+    grid-template-columns: 480px 50px;
 }
 hr{
     border-top: 6px solid #431264;
