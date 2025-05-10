@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.profilePic{
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    border: 7px solid #431264;
+}
+.nav{
+    background-color: #431264;
+}
+.nav-link{
+    color: white;
+    font-size: 20px;
+}
+.nav-link:hover{
+    color: white;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+}
+.mansorContainer{
+    padding: 50px;
+    background-color: black;
+    color: white;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.mansorBg{
+    width: 100%;
+    background-color: #434343;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.gitIcon{
+    color: white;
+}
+.gitMansor:hover{
+    color: #434343;
+}
+.gitIndigo:hover{
+    color: #8343A0;
+}
+.indigoContainer{
+    padding: 50px;
+    background-color: #431264;
+    color: white;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+.indigoBg{
+    width: 100%;
+    background-color: #431264;
+}
+.mathContainer{
+    padding: 50px;
+    background-color: #6D88D0;
+    color: white;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+.mathBg{
+    width: 100%;
+    background-color: #6D88D0;
+}
+.journalButton{
+    color: white !important;
+    border: solid white;
+}
+.thunkableBtn{
+    width: 50px;
+    height: 50px;
+}
+.indigoBtn:hover{
+    background-color: #8343A0;
+}
+.mathBtn:hover{
+    background-color: #8097D6;
+}
+.gitContainer{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 170px 50px;
+}
+.thunkableContainer{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 220px 50px;
+}
+hr{
+    border-top: 6px solid #431264;
+    border-radius: 5px;
+    opacity: 0.7;
+}
+footer{
+    background-color: #431264;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.contact a{
+    color: #431264;
+}
+.contact a:hover{
+    color: #8343A0; 
+}
+/* width */
+::-webkit-scrollbar {
+  width: 13px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #431264; 
+  border-radius: 10px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #8343A0; 
+}
