@@ -148,6 +148,9 @@ footer{
 .lang:hover{
     background-color: #8343A0;
 }
+.lang-wrapper {
+    padding: 10px;
+}
 .album{
     text-align: left;
 }
