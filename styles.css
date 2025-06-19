@@ -111,6 +111,45 @@ footer{
 .contact a:hover{
     color: #8343A0; 
 }
+.discord {
+    color: #431264;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 0.5rem;
+    max-width: 100%;
+}
+.discord:hover {
+    color: #8343A0;
+}
+.discordName {
+    display: block;
+    font-size: 1.2rem;
+    word-break: break-word;
+}
+@media screen and (max-width: 480px) {
+    .discordName {
+        font-size: 0.9rem;
+    }
+}
+.languages div{
+    background-color: #431264;
+    border-radius: 15px;
+    width: auto;
+    height: auto;
+    color: white;
+    font-size: 30px;
+    padding: 30px;
+    margin: 20px;
+}
+.languages div:hover{
+    background-color: #8343A0;
+}
+.album{
+    text-align: left;
+}
 /* width */
 ::-webkit-scrollbar {
   width: 13px;
@@ -128,4 +167,43 @@ footer{
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #8343A0; 
+}
+
+@media only screen and (max-width: 600px) {
+    .languages{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .languages{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .languages{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .languages{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .languages{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
 }
