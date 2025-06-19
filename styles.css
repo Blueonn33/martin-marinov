@@ -134,37 +134,34 @@ footer{
         font-size: 0.9rem;
     }
 }
-.languages div{
+
+.lang{
     background-color: #431264;
     border-radius: 15px;
-    width: auto;
+    width: 100%;
     height: auto;
     color: white;
     font-size: 30px;
     padding: 30px;
     margin: 20px;
 }
-.languages div:hover{
+.lang:hover{
     background-color: #8343A0;
 }
 .album{
     text-align: left;
 }
-/* width */
 ::-webkit-scrollbar {
   width: 13px;
 }
-/* Track */
 ::-webkit-scrollbar-track {
   box-shadow: inset 0 0 5px grey; 
   border-radius: 10px;
 }
-/* Handle */
 ::-webkit-scrollbar-thumb {
   background: #431264; 
   border-radius: 10px;
 }
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #8343A0; 
 }
