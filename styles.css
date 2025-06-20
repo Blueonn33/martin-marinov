@@ -45,6 +45,9 @@ body{
 .gitIndigo:hover{
     color: #8343A0;
 }
+.gitOnyx:hover{
+    color: #A7C99B;
+}
 .indigoContainer{
     padding: 50px;
     background-color: #431264;
@@ -66,6 +69,17 @@ body{
 .mathBg{
     width: 100%;
     background-color: #6D88D0;
+}
+.onyxContainer{
+    padding: 50px;
+    background-color: #007735;
+    color: white;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+.onyxBg{
+    width: 100%;
+    background-color: #007735;
 }
 .journalButton{
     color: white !important;
@@ -168,38 +182,3 @@ footer{
 ::-webkit-scrollbar-thumb:hover {
   background: #8343A0; 
 }
-
-/* @media only screen and (max-width: 600px) {
-    .languages{
-        display: grid;
-        grid-template-columns: auto auto;
-    }
-}
-
-@media only screen and (min-width: 600px) {
-    .languages{
-        display: grid;
-        grid-template-columns: auto auto;
-    }
-}
-
-@media only screen and (min-width: 768px) {
-    .languages{
-        display: grid;
-        grid-template-columns: auto auto auto;
-    }
-} 
-
-@media only screen and (min-width: 992px) {
-    .languages{
-        display: grid;
-        grid-template-columns: auto auto auto auto;
-    }
-} 
-
-@media only screen and (min-width: 1200px) {
-    .languages{
-        display: grid;
-        grid-template-columns: auto auto auto auto;
-    }
-} */
