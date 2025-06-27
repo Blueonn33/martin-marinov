@@ -163,7 +163,9 @@ footer{
 .lang:hover{
     background-color: #8343A0;
 }
-
+.projectDescription{
+    text-align: left;
+}
 .album{
     text-align: left;
 }
