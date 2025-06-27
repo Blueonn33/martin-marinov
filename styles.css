@@ -2,13 +2,17 @@ body{
     margin: 0;
     padding: 0;
 }
+p{
+    font-size: clamp(14px, 2vw, 20px) !important;
+}
 .nav-link.active {
   font-weight: bold;
   color: white !important; /* Bootstrap синьо */
   border-bottom: 4px solid white;
 }
-.profilePic{
-    width: 400px;
+.profilePic {
+    width: 100%;
+    max-width: 400px;
     height: auto;
     border-radius: 10px;
     border: 7px solid #431264;
@@ -24,7 +28,7 @@ body{
     color: #8343A0;
 }
 .mansorContainer{
-    padding: 50px;
+    /* padding: 50px; */
     background-color: black;
     color: white;
     margin-bottom: 0;
@@ -49,7 +53,7 @@ body{
     color: #00A9A9;
 }
 .indigoContainer{
-    padding: 50px;
+    /* padding: 50px; */
     background-color: #431264;
     color: white;
     margin-top: 0 !important;
@@ -60,7 +64,7 @@ body{
     background-color: #431264;
 }
 .mathContainer{
-    padding: 50px;
+    /* padding: 50px; */
     background-color: #6D88D0;
     color: white;
     margin-top: 0 !important;
@@ -71,7 +75,7 @@ body{
     background-color: #6D88D0;
 }
 .onyxContainer{
-    padding: 50px;
+    /* padding: 50px; */
     background-color: #006B6B;
     color: white;
     margin-top: 0 !important;
@@ -143,28 +147,23 @@ footer{
     font-size: 1.2rem;
     word-break: break-word;
 }
-@media screen and (max-width: 480px) {
-    .discordName {
-        font-size: 0.9rem;
-    }
+.lang-wrapper{
+    display: flex;
+    justify-content: center;
 }
-
 .lang{
     background-color: #431264;
     border-radius: 15px;
-    width: 100%;
-    height: auto;
     color: white;
-    font-size: 30px;
-    padding: 30px;
-    margin: 20px;
+    padding: 20px;
+    margin: 10px 0;
+    font-size: clamp(16px, 2vw, 20px);
+    text-align: center;
 }
 .lang:hover{
     background-color: #8343A0;
 }
-.lang-wrapper {
-    padding: 10px;
-}
+
 .album{
     text-align: left;
 }
