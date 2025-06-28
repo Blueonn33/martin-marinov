@@ -222,6 +222,9 @@ footer{
     border-radius: 20px;
     width: 100%;
 }
+.maneskinContainer .song{
+    background-color: black;
+}
 .musicianImageContainer{
     margin: 0;
     padding: 0;
@@ -253,11 +256,24 @@ footer{
 .songButton:hover{
     color: #d9d9d9;
 }
+.fujiiContainer{
+    background-color: #322119;
+    border-radius: 20px;
+}
+.fujiiContainer .song{
+    background-color: #B4A996;
+}
 .mrKittyContainer{
     background-color: black;
     border-radius: 20px;
 }
+.mrKittyContainer .song{
+    background-color: #B61F22;
+}
 .otnickaContainer{
     background-color: #2B211F;
     border-radius: 20px;
+}
+.otnickaContainer .song{
+    background-color: #B3A8A4;
 }
