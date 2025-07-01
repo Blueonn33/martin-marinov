@@ -128,10 +128,14 @@ hr{
     opacity: 0.7;
 }
 footer{
-    background-color: #431264;
+    /* background-color: #431264; */
+    background-color: black;
     color: white;
     margin: 0;
     padding: 0;
+}
+footer .nav{
+    background-color: black;
 }
 .contact a{
     color: #431264;
@@ -294,4 +298,14 @@ footer{
     color: white;
     border-radius: 6px;
     padding: 3px;
+}
+.onyxVideo{
+    /* position: absolute; */
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    left: 0;
+}
+.onyxVideoContainer{
+    background-color: black;
 }
