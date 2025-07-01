@@ -301,11 +301,16 @@ footer .nav{
 }
 .onyxVideo{
     /* position: absolute; */
-    width: 100%;
+    /* width: 100%;
     height: auto;
+    min-height: 400px;
+    min-width: 200px;
     bottom: 0;
-    left: 0;
+    left: 0; */
+    width: 100%    !important;
+    height: auto   !important;
 }
 .onyxVideoContainer{
     background-color: black;
+    min-height: 300px;
 }
