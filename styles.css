@@ -277,3 +277,21 @@ footer{
 .otnickaContainer .song{
     background-color: #B3A8A4;
 }
+.mansorAward{
+    background-color: #434343;
+    color: white;
+    border-radius: 6px;
+    padding: 3px;
+}
+.indigoAward{
+    background-color: #431264;
+    color: white;
+    border-radius: 6px;
+    padding: 3px;
+}
+.onyxAward{
+    background-color: #006B6B;
+    color: white;
+    border-radius: 6px;
+    padding: 3px;
+}
