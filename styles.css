@@ -268,11 +268,11 @@ footer .nav{
     background-color: #B4A996;
 }
 .mrKittyContainer{
-    background-color: black;
+    background-color: #EDEDED;
     border-radius: 20px;
 }
 .mrKittyContainer .song{
-    background-color: #B61F22;
+    background-color: black;
 }
 .otnickaContainer{
     background-color: #2B211F;
