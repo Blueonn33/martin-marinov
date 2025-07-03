@@ -314,3 +314,10 @@ footer .nav{
     box-shadow: 0 0 0 1px #431264;
     transition: all 200ms ease-out;
 }
+.lang a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-decoration: none;
+}
