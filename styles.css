@@ -300,17 +300,17 @@ footer .nav{
     padding: 3px;
 }
 .onyxVideo{
-    /* position: absolute; */
-    /* width: 100%;
-    height: auto;
-    min-height: 400px;
-    min-width: 200px;
-    bottom: 0;
-    left: 0; */
     width: 100%    !important;
     height: auto   !important;
 }
 .onyxVideoContainer{
     background-color: black;
     min-height: 250px;
+}
+.projectLogoContainer:hover{
+    /* outline: 4px solid #431264; */
+    outline: 5px solid #431264;
+    border-radius: 3px;
+    box-shadow: 0 0 0 1px #431264;
+    transition: all 200ms ease-out;
 }
