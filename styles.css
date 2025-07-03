@@ -219,6 +219,10 @@ footer .nav{
     display: flex;
     flex-direction: row;
 }
+.vivid{
+    font-weight: bold;
+    color: #FC831E;
+}
 .gitVivid{
     color: #FC831E;
 }
