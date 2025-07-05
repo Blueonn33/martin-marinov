@@ -41,12 +41,24 @@ p, li{
     padding-top:0;
     background-color: transparent;
 }
+.projectLogoContainer{
+    opacity: 0.7;
+}
+.projectLogoContainer:hover{
+    /* outline: 4px solid #431264; */
+    /* outline: 5px solid #431264;
+    border-radius: 3px;
+    box-shadow: 0 0 0 1px #431264;
+    transition: all 200ms ease-out; */
+    cursor: pointer;
+    border-radius: 50px;
+    outline: 6px solid #431264;
+    /* opacity: 0.7; */
+}
 .projectLogo{
     width: 100%;
-    /* max-width: 25%; */
-    height: auto;
     border-radius: 50px;
-    border: 6px solid #431264;
+    height: auto;
 }
 .nav{
     background-color: #431264;
@@ -334,15 +346,6 @@ footer .nav{
 .onyxVideoContainer{
     background-color: black;
     min-height: 250px;
-}
-.projectLogoContainer:hover{
-    /* outline: 4px solid #431264; */
-    /* outline: 5px solid #431264;
-    border-radius: 3px;
-    box-shadow: 0 0 0 1px #431264;
-    transition: all 200ms ease-out; */
-    cursor: pointer;
-    opacity: 0.7;
 }
 .lang a {
     display: block;
