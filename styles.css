@@ -39,12 +39,14 @@ p, li{
     align-items: center;
     margin-top:0;
     padding-top:0;
-    background-color: white;
+    background-color: transparent;
 }
 .projectLogo{
     width: 100%;
     /* max-width: 25%; */
     height: auto;
+    border-radius: 50px;
+    border: 6px solid #431264;
 }
 .nav{
     background-color: #431264;
@@ -335,10 +337,12 @@ footer .nav{
 }
 .projectLogoContainer:hover{
     /* outline: 4px solid #431264; */
-    outline: 5px solid #431264;
+    /* outline: 5px solid #431264;
     border-radius: 3px;
     box-shadow: 0 0 0 1px #431264;
-    transition: all 200ms ease-out;
+    transition: all 200ms ease-out; */
+    cursor: pointer;
+    opacity: 0.7;
 }
 .lang a {
     display: block;
