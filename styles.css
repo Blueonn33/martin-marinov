@@ -20,6 +20,10 @@ p, li, span{
 .aboutMe{
     text-align: justify;
 }
+.studentInfo{
+    text-align: center;
+    font-weight: bold;
+}
 .nav-link.active {
   font-weight: bold;
   color: white !important; /* Bootstrap синьо */
