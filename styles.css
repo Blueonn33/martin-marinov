@@ -1,28 +1,30 @@
-body{
-    margin: 0;
-    padding: 0;
+body {
+  margin: 0;
+  padding: 0;
 }
-p, li, span{
-    font-size: clamp(16px, 2vw, 20px) !important;
+p,
+li,
+span {
+  font-size: clamp(16px, 2vw, 20px) !important;
 }
-.bgImage{
-    position: absolute;
-    z-index: -10;
-    width: 100%;
-    opacity: 0.3;
-    top: 0;
-    left: 0;
-    height: 200vh;
+.bgImage {
+  position: absolute;
+  z-index: -10;
+  width: 100%;
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  height: 200vh;
 }
-#home{
-    /* background-image: url("./Images/pattern1.png"); */
+#home {
+  /* background-image: url("./Images/pattern1.png"); */
 }
-.aboutMe{
-    text-align: justify;
+.aboutMe {
+  text-align: justify;
 }
-.studentInfo{
-    text-align: center;
-    font-weight: bold;
+.studentInfo {
+  text-align: center;
+  font-weight: bold;
 }
 .nav-link.active {
   font-weight: bold;
@@ -30,331 +32,334 @@ p, li, span{
   border-bottom: 4px solid white;
 }
 .profilePic {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-    border-radius: 10px;
-    border: 7px solid #431264;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 10px;
+  border: 7px solid #431264;
 }
-.projectsContainer{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top:0;
-    padding-top:0;
-    background-color: transparent;
+.projectsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 0;
+  padding-top: 0;
+  background-color: transparent;
 }
-.projectLogoContainer{
-    opacity: 0.7;
+.projectLogoContainer {
+  opacity: 0.7;
 }
-.projectLogoContainer:hover{
-    /* outline: 4px solid #431264; */
-    /* outline: 5px solid #431264;
+.projectLogoContainer:hover {
+  /* outline: 4px solid #431264; */
+  /* outline: 5px solid #431264;
     border-radius: 3px;
     box-shadow: 0 0 0 1px #431264;
     transition: all 200ms ease-out; */
-    cursor: pointer;
-    border-radius: 50px;
-    outline: 6px solid #431264;
-    /* opacity: 0.7; */
+  cursor: pointer;
+  border-radius: 50px;
+  outline: 6px solid #431264;
+  /* opacity: 0.7; */
 }
-.projectLogo{
-    width: 100%;
-    border-radius: 50px;
-    height: auto;
+.projectLogo {
+  width: 100%;
+  border-radius: 50px;
+  height: auto;
 }
-.nav{
-    background-color: #431264;
+.nav {
+  background-color: #431264;
 }
-.nav-link{
-    color: white;
-    font-size: 20px;
+.nav-link {
+  color: white;
+  font-size: 20px;
 }
-.nav-link:hover{
-    color: #8343A0;
+.nav-link:hover {
+  color: #8343a0;
 }
-.mansorContainer{
-    /* padding: 50px; */
-    background-color: black;
-    color: white;
-    margin-bottom: 0;
-    padding-bottom: 0;
+.mansorContainer {
+  /* padding: 50px; */
+  background-color: black;
+  color: white;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
-.mansorBg{
-    width: 100%;
-    background-color: #434343;
-    margin-bottom: 0;
-    padding-bottom: 0;
+.mansorBg {
+  width: 100%;
+  background-color: #434343;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
-.gitIcon{
-    color: white;
+.gitIcon {
+  color: white;
 }
-.gitMansor:hover{
-    color: #434343;
+.gitMansor:hover {
+  color: #434343;
 }
-.gitIndigo:hover{
-    color: #8343A0;
+.gitIndigo:hover {
+  color: #8343a0;
 }
-.gitOnyx:hover{
-    color: #00A9A9;
+.gitMadMath:hover {
+  color: #5d84efe4;
 }
-.indigoContainer{
-    /* padding: 50px; */
-    background-color: #431264;
-    color: white;
-    margin-top: 0 !important;
-    padding-top: 0 !important;
+.gitOnyx:hover {
+  color: #00a9a9;
 }
-.indigoBg{
-    width: 100%;
-    background-color: #431264;
+.indigoContainer {
+  /* padding: 50px; */
+  background-color: #431264;
+  color: white;
+  margin-top: 0 !important;
+  padding-top: 0 !important;
 }
-.mathContainer{
-    /* padding: 50px; */
-    background-color: #6D88D0;
-    color: white;
-    margin-top: 0 !important;
-    padding-top: 0 !important;
+.indigoBg {
+  width: 100%;
+  background-color: #431264;
 }
-.mathBg{
-    width: 100%;
-    background-color: #6D88D0;
+.mathContainer {
+  /* padding: 50px; */
+  background-color: #6d88d0;
+  color: white;
+  margin-top: 0 !important;
+  padding-top: 0 !important;
 }
-.onyxContainer{
-    /* padding: 50px; */
-    background-color: #006B6B;
-    color: white;
-    margin-top: 0 !important;
-    padding-top: 0 !important;
+.mathBg {
+  width: 100%;
+  background-color: #6d88d0;
 }
-.onyxBg{
-    width: 100%;
-    background-color: #006B6B;
+.onyxContainer {
+  /* padding: 50px; */
+  background-color: #006b6b;
+  color: white;
+  margin-top: 0 !important;
+  padding-top: 0 !important;
 }
-.journalButton{
-    color: white !important;
-    border: solid white;
+.onyxBg {
+  width: 100%;
+  background-color: #006b6b;
 }
-.thunkableBtn{
-    width: 50px;
-    height: 50px;
+.journalButton {
+  color: white !important;
+  border: solid white;
 }
-.indigoBtn:hover{
-    background-color: #8343A0;
+.thunkableBtn {
+  width: 50px;
+  height: 50px;
 }
-.mathBtn:hover{
-    background-color: #8097D6;
+.indigoBtn:hover {
+  background-color: #8343a0;
 }
-.gitContainer{
-    margin-top: 40px;
-    display: grid;
-    grid-template-columns: 210px 50px;
+.mathBtn:hover {
+  background-color: #8097d6;
 }
-.thunkableContainer{
-    margin-top: 40px;
-    display: grid;
-    grid-template-columns: 250px 50px;
+.gitContainer {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 210px 50px;
 }
-hr{
-    border-top: 6px solid #431264;
-    border-radius: 5px;
-    opacity: 0.7;
+.thunkableContainer {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 250px 50px;
 }
-footer{
-    /* background-color: #431264; */
-    background-color: black;
-    color: white;
-    margin: 0;
-    padding: 0;
+hr {
+  border-top: 6px solid #431264;
+  border-radius: 5px;
+  opacity: 0.7;
 }
-footer .nav{
-    background-color: black;
+footer {
+  /* background-color: #431264; */
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 0;
 }
-.contact a{
-    color: #431264;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
+footer .nav {
+  background-color: black;
 }
-.contact a:hover{
-    color: #8343A0; 
+.contact a {
+  color: #431264;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact a:hover {
+  color: #8343a0;
 }
 .discord {
-    color: #431264;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    gap: 0.5rem;
-    max-width: 100%;
+  color: #431264;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 0.5rem;
+  max-width: 100%;
 }
 .discord:hover {
-    color: #8343A0;
+  color: #8343a0;
 }
 .discordName {
-    display: block;
-    font-size: 1.2rem;
-    word-break: break-word;
+  display: block;
+  font-size: 1.2rem;
+  word-break: break-word;
 }
-.lang-wrapper{
-    display: flex;
-    justify-content: center;
+.lang-wrapper {
+  display: flex;
+  justify-content: center;
 }
-.lang{
-    background-color: #431264;
-    border-radius: 15px;
-    color: white;
-    padding: 20px;
-    margin: 10px 0;
-    font-size: clamp(16px, 2vw, 20px);
-    text-align: center;
+.lang {
+  background-color: #431264;
+  border-radius: 15px;
+  color: white;
+  padding: 20px;
+  margin: 10px 0;
+  font-size: clamp(16px, 2vw, 20px);
+  text-align: center;
 }
-.lang:hover{
-    background-color: #8343A0;
+.lang:hover {
+  background-color: #8343a0;
 }
-.projectDescription{
-    text-align: left;
+.projectDescription {
+  text-align: left;
 }
-.album{
-    text-align: left;
+.album {
+  text-align: left;
 }
 ::-webkit-scrollbar {
   width: 13px;
 }
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey; 
+  box-shadow: inset 0 0 5px grey;
   border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb {
-  background: #431264; 
+  background: #431264;
   border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #8343A0; 
+  background: #8343a0;
 }
 /* .internshipContainer{
     display: flex;
     flex-direction: row;
 } */
- .mentorImageContainer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
- }
-.mentorContent{
-    text-align: left;
+.mentorImageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.vividContainer{
-    display: flex;
-    flex-direction: row;
+.mentorContent {
+  text-align: left;
 }
-.vivid{
-    font-weight: bold;
-    color: #FC831E;
+.vividContainer {
+  display: flex;
+  flex-direction: row;
 }
-.gitVivid{
-    color: #FC831E;
+.vivid {
+  font-weight: bold;
+  color: #fc831e;
 }
-.gitVivid:hover{
-    color: #FFB170;
+.gitVivid {
+  color: #fc831e;
 }
-.mentorImage{
-    min-width: 150px;
-    width: 300px;
+.gitVivid:hover {
+  color: #ffb170;
 }
-.maneskinContainer{
-    display: grid;
-    background-color: #A9ADA6;
-    border-radius: 20px;
-    width: 100%;
+.mentorImage {
+  min-width: 150px;
+  width: 300px;
 }
-.maneskinContainer .song{
-    background-color: black;
+.maneskinContainer {
+  display: grid;
+  background-color: #a9ada6;
+  border-radius: 20px;
+  width: 100%;
 }
-.musicianImageContainer{
-    margin: 0;
-    padding: 0;
-    /* width: 30%; */
+.maneskinContainer .song {
+  background-color: black;
 }
-.musicianImage{
-    border-radius: 20px;
-    /* max-width: 70%; */
+.musicianImageContainer {
+  margin: 0;
+  padding: 0;
+  /* width: 30%; */
 }
-.songsContainer{
-    width: 100%;
+.musicianImage {
+  border-radius: 20px;
+  /* max-width: 70%; */
 }
-.song{
-    border: 3px solid white;
-    padding: 10px;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: row;
-    color: white;
+.songsContainer {
+  width: 100%;
 }
-.songImage{
-    max-width: 20%;
-    min-width: 100px;
-    border-radius: 10px;
+.song {
+  border: 3px solid white;
+  padding: 10px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  color: white;
 }
-.songButton{
-    color: white;
+.songImage {
+  max-width: 20%;
+  min-width: 100px;
+  border-radius: 10px;
 }
-.songButton:hover{
-    color: #d9d9d9;
+.songButton {
+  color: white;
 }
-.fujiiContainer{
-    background-color: #322119;
-    border-radius: 20px;
+.songButton:hover {
+  color: #d9d9d9;
 }
-.fujiiContainer .song{
-    background-color: #B4A996;
+.fujiiContainer {
+  background-color: #322119;
+  border-radius: 20px;
 }
-.mrKittyContainer{
-    background-color: #EDEDED;
-    border-radius: 20px;
+.fujiiContainer .song {
+  background-color: #b4a996;
 }
-.mrKittyContainer .song{
-    background-color: black;
+.mrKittyContainer {
+  background-color: #ededed;
+  border-radius: 20px;
 }
-.otnickaContainer{
-    background-color: #2B211F;
-    border-radius: 20px;
+.mrKittyContainer .song {
+  background-color: black;
 }
-.otnickaContainer .song{
-    background-color: #B3A8A4;
+.otnickaContainer {
+  background-color: #2b211f;
+  border-radius: 20px;
 }
-.mansorAward{
-    background-color: #434343;
-    color: white;
-    border-radius: 6px;
-    padding: 3px;
+.otnickaContainer .song {
+  background-color: #b3a8a4;
 }
-.indigoAward{
-    background-color: #431264;
-    color: white;
-    border-radius: 6px;
-    padding: 3px;
+.mansorAward {
+  background-color: #434343;
+  color: white;
+  border-radius: 6px;
+  padding: 3px;
 }
-.onyxAward{
-    background-color: #006B6B;
-    color: white;
-    border-radius: 6px;
-    padding: 3px;
+.indigoAward {
+  background-color: #431264;
+  color: white;
+  border-radius: 6px;
+  padding: 3px;
 }
-.onyxVideo{
-    width: 100%    !important;
-    height: auto   !important;
+.onyxAward {
+  background-color: #006b6b;
+  color: white;
+  border-radius: 6px;
+  padding: 3px;
 }
-.onyxVideoContainer{
-    background-color: black;
-    min-height: 250px;
+.onyxVideo {
+  width: 100% !important;
+  height: auto !important;
+}
+.onyxVideoContainer {
+  background-color: black;
+  min-height: 250px;
 }
 .lang a {
-    display: block;
-    width: 100%;
-    height: 100%;
-    color: white;
-    text-decoration: none;
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: white;
+  text-decoration: none;
 }
